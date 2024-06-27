@@ -21,11 +21,12 @@
     <parent>
         <groupId>org.apache.dubbo.extensions.examples.apidocs</groupId>
         <artifactId>dubbo-api-docs-examples</artifactId>
-        <version>3.2.0</version>
+        <version>${revision}</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>examples-api</artifactId>
+    <version>${revision}</version>
 
     <properties>
         <skip_maven_deploy>true</skip_maven_deploy>
